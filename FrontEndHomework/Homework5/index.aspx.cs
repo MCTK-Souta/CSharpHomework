@@ -31,7 +31,7 @@ namespace FrontEndHomework.Homework5
 
             foreach(var book in this._list)
             {
-                outputTextList.Add($@"{{ ""Name"": ""{book.Name}"", ""ISB"": ""{ book.ISBN }"", ""Price"": {book.Price} }}");
+                outputTextList.Add($@"{{ ""Name"": ""{book.Name}"", ""ISBN"": ""{ book.ISBN }"", ""Price"": {book.Price} }}");
             }
 
             this.ArrText = "[" + string.Join(", ", outputTextList) + "]";
